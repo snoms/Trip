@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D3B8253BCFD5ADD0F37D640 /* Pods_testmaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A10D4557697829EC63D5B43 /* Pods_testmaps.framework */; };
+		85AF824D24C09C9A23057BAA /* Pods_Trip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B32930D7F9C6720A9DA7377 /* Pods_Trip.framework */; };
+		CC6A5FE41D0068240094166A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5FE31D0068240094166A /* AppDelegate.swift */; };
+		CC6A5FED1D0068240094166A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6A5FEC1D0068240094166A /* Assets.xcassets */; };
+		CC6A5FF01D0068240094166A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6A5FEE1D0068240094166A /* LaunchScreen.storyboard */; };
+		CC6A5FF81D0069600094166A /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CC6A5FF71D0069600094166A /* GoogleMaps.bundle */; };
+		CC6A5FFF1D0073780094166A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5FFA1D0073780094166A /* FirstViewController.swift */; };
+		CC6A60001D0073780094166A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5FFB1D0073780094166A /* SecondViewController.swift */; };
+		CC6A60011D0073780094166A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5FFC1D0073780094166A /* ThirdViewController.swift */; };
+		CC6A60021D0073780094166A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6A5FFD1D0073780094166A /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28004F14889DF70613999545 /* Pods-Trip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trip/Pods-Trip.debug.xcconfig"; sourceTree = "<group>"; };
+		3B32930D7F9C6720A9DA7377 /* Pods_Trip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A10D4557697829EC63D5B43 /* Pods_testmaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testmaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF03673820101D24F1362B5 /* Pods-Trip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trip.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trip/Pods-Trip.release.xcconfig"; sourceTree = "<group>"; };
+		A92309FFB2053B309A567FEF /* Pods-testmaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testmaps.release.xcconfig"; path = "Pods/Target Support Files/Pods-testmaps/Pods-testmaps.release.xcconfig"; sourceTree = "<group>"; };
+		B38D4E06CA94B88FFCAA9CB8 /* Pods-testmaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testmaps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testmaps/Pods-testmaps.debug.xcconfig"; sourceTree = "<group>"; };
+		CC6A5FE01D0068240094166A /* Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6A5FE31D0068240094166A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC6A5FEC1D0068240094166A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC6A5FEF1D0068240094166A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC6A5FF11D0068240094166A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6A5FF71D0069600094166A /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Pods/PXGoogleDirections/Dependencies/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		CC6A5FFA1D0073780094166A /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ../../../ProgProject/Trip/Trip/FirstViewController.swift; sourceTree = "<group>"; };
+		CC6A5FFB1D0073780094166A /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../../../ProgProject/Trip/Trip/SecondViewController.swift; sourceTree = "<group>"; };
+		CC6A5FFC1D0073780094166A /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ../../../ProgProject/Trip/ThirdViewController.swift; sourceTree = "<group>"; };
+		CC6A5FFE1D0073780094166A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../ProgProject/Trip/Trip/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC6A5FDD1D0068240094166A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3B8253BCFD5ADD0F37D640 /* Pods_testmaps.framework in Frameworks */,
+				85AF824D24C09C9A23057BAA /* Pods_Trip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6995734B13F69559C085D6D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B38D4E06CA94B88FFCAA9CB8 /* Pods-testmaps.debug.xcconfig */,
+				A92309FFB2053B309A567FEF /* Pods-testmaps.release.xcconfig */,
+				28004F14889DF70613999545 /* Pods-Trip.debug.xcconfig */,
+				4DF03673820101D24F1362B5 /* Pods-Trip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC6A5FD71D0068240094166A = {
+			isa = PBXGroup;
+			children = (
+				CC6A5FE21D0068240094166A /* Trip */,
+				CC6A5FE11D0068240094166A /* Products */,
+				6995734B13F69559C085D6D0 /* Pods */,
+				F7C7D127B0C1C92DCAA25878 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC6A5FE11D0068240094166A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A5FE01D0068240094166A /* Trip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC6A5FE21D0068240094166A /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A5FE31D0068240094166A /* AppDelegate.swift */,
+				CC6A5FFA1D0073780094166A /* FirstViewController.swift */,
+				CC6A5FFB1D0073780094166A /* SecondViewController.swift */,
+				CC6A5FFC1D0073780094166A /* ThirdViewController.swift */,
+				CC6A5FFD1D0073780094166A /* Main.storyboard */,
+				CC6A5FEC1D0068240094166A /* Assets.xcassets */,
+				CC6A5FEE1D0068240094166A /* LaunchScreen.storyboard */,
+				CC6A5FF11D0068240094166A /* Info.plist */,
+			);
+			name = Trip;
+			path = testmaps;
+			sourceTree = "<group>";
+		};
+		F7C7D127B0C1C92DCAA25878 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A5FF71D0069600094166A /* GoogleMaps.bundle */,
+				4A10D4557697829EC63D5B43 /* Pods_testmaps.framework */,
+				3B32930D7F9C6720A9DA7377 /* Pods_Trip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC6A5FDF1D0068240094166A /* Trip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6A5FF41D0068240094166A /* Build configuration list for PBXNativeTarget "Trip" */;
+			buildPhases = (
+				666342A091639F01E997B4D1 /* 📦 Check Pods Manifest.lock */,
+				CC6A5FDC1D0068240094166A /* Sources */,
+				CC6A5FDD1D0068240094166A /* Frameworks */,
+				CC6A5FDE1D0068240094166A /* Resources */,
+				F518EA90425138CF02421EEA /* 📦 Embed Pods Frameworks */,
+				532C499DCE4EDFB422EFBBA3 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trip;
+			productName = testmaps;
+			productReference = CC6A5FE01D0068240094166A /* Trip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC6A5FD81D0068240094166A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bob;
+				TargetAttributes = {
+					CC6A5FDF1D0068240094166A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9B4995VYB9;
+					};
+				};
+			};
+			buildConfigurationList = CC6A5FDB1D0068240094166A /* Build configuration list for PBXProject "Trip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC6A5FD71D0068240094166A;
+			productRefGroup = CC6A5FE11D0068240094166A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC6A5FDF1D0068240094166A /* Trip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC6A5FDE1D0068240094166A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6A5FF01D0068240094166A /* LaunchScreen.storyboard in Resources */,
+				CC6A5FED1D0068240094166A /* Assets.xcassets in Resources */,
+				CC6A5FF81D0069600094166A /* GoogleMaps.bundle in Resources */,
+				CC6A60021D0073780094166A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		532C499DCE4EDFB422EFBBA3 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trip/Pods-Trip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		666342A091639F01E997B4D1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F518EA90425138CF02421EEA /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trip/Pods-Trip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC6A5FDC1D0068240094166A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6A60001D0073780094166A /* SecondViewController.swift in Sources */,
+				CC6A5FE41D0068240094166A /* AppDelegate.swift in Sources */,
+				CC6A60011D0073780094166A /* ThirdViewController.swift in Sources */,
+				CC6A5FFF1D0073780094166A /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC6A5FEE1D0068240094166A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6A5FEF1D0068240094166A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CC6A5FFD1D0073780094166A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6A5FFE1D0073780094166A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC6A5FF21D0068240094166A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC6A5FF31D0068240094166A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC6A5FF51D0068240094166A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28004F14889DF70613999545 /* Pods-Trip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testmaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					"\"PXGoogleDirections\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"CoreBluetooth\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-l",
+					"\"z\"",
+					"-l",
+					"\"c++\"",
+					"-l",
+					"\"icucore\"",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.Trip;
+				PRODUCT_NAME = Trip;
+			};
+			name = Debug;
+		};
+		CC6A5FF61D0068240094166A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF03673820101D24F1362B5 /* Pods-Trip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testmaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					"\"PXGoogleDirections\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"CoreBluetooth\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-l",
+					"\"z\"",
+					"-l",
+					"\"c++\"",
+					"-l",
+					"\"icucore\"",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.Trip;
+				PRODUCT_NAME = Trip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC6A5FDB1D0068240094166A /* Build configuration list for PBXProject "Trip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6A5FF21D0068240094166A /* Debug */,
+				CC6A5FF31D0068240094166A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC6A5FF41D0068240094166A /* Build configuration list for PBXNativeTarget "Trip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6A5FF51D0068240094166A /* Debug */,
+				CC6A5FF61D0068240094166A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC6A5FD81D0068240094166A /* Project object */;
+}
