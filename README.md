@@ -1,4 +1,6 @@
-# Programming Project proposal (yet unnamed) Bob Oey
+# Programming Project proposal 
+'Trip'
+Bob Oey
 
 ### Global summary
 A public transportation app which offers live guidance to travellers unfamiliar with their surroundings. Instructions will include alerts to request a Stop, upcoming changes of vehicles etc.
