@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9614CC722A5BECF51D9266BDABFFAF9B31030615",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "054C0118338263B2936653AF7093B0FB16542FE9" : 0,
+    "9614CC722A5BECF51D9266BDABFFAF9B31030615" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "59455CD9-A474-407C-8A4A-FF3B10753073",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "054C0118338263B2936653AF7093B0FB16542FE9" : "ProgProject\/",
+    "9614CC722A5BECF51D9266BDABFFAF9B31030615" : "1nieuwetest\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Trip",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "testmaps\/Trip.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/snoms\/ProgProject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "054C0118338263B2936653AF7093B0FB16542FE9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/snoms\/Trip.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9614CC722A5BECF51D9266BDABFFAF9B31030615"
+    }
+  ]
+}

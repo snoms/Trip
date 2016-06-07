@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D3B8253BCFD5ADD0F37D640 /* Pods_testmaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A10D4557697829EC63D5B43 /* Pods_testmaps.framework */; };
 		85AF824D24C09C9A23057BAA /* Pods_Trip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B32930D7F9C6720A9DA7377 /* Pods_Trip.framework */; };
 		CC6A5FE41D0068240094166A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5FE31D0068240094166A /* AppDelegate.swift */; };
 		CC6A5FED1D0068240094166A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6A5FEC1D0068240094166A /* Assets.xcassets */; };
@@ -17,12 +16,12 @@
 		CC6A60001D0073780094166A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5FFB1D0073780094166A /* SecondViewController.swift */; };
 		CC6A60011D0073780094166A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A5FFC1D0073780094166A /* ThirdViewController.swift */; };
 		CC6A60021D0073780094166A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6A5FFD1D0073780094166A /* Main.storyboard */; };
+		CC878BD21D06C76800C7F394 /* GoogleAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC878BD11D06C76800C7F394 /* GoogleAPIKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		28004F14889DF70613999545 /* Pods-Trip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trip/Pods-Trip.debug.xcconfig"; sourceTree = "<group>"; };
 		3B32930D7F9C6720A9DA7377 /* Pods_Trip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A10D4557697829EC63D5B43 /* Pods_testmaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testmaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF03673820101D24F1362B5 /* Pods-Trip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trip.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trip/Pods-Trip.release.xcconfig"; sourceTree = "<group>"; };
 		A92309FFB2053B309A567FEF /* Pods-testmaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testmaps.release.xcconfig"; path = "Pods/Target Support Files/Pods-testmaps/Pods-testmaps.release.xcconfig"; sourceTree = "<group>"; };
 		B38D4E06CA94B88FFCAA9CB8 /* Pods-testmaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testmaps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testmaps/Pods-testmaps.debug.xcconfig"; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		CC6A5FFB1D0073780094166A /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../../../ProgProject/Trip/Trip/SecondViewController.swift; sourceTree = "<group>"; };
 		CC6A5FFC1D0073780094166A /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ../../../ProgProject/Trip/ThirdViewController.swift; sourceTree = "<group>"; };
 		CC6A5FFE1D0073780094166A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../ProgProject/Trip/Trip/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC878BD11D06C76800C7F394 /* GoogleAPIKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAPIKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D3B8253BCFD5ADD0F37D640 /* Pods_testmaps.framework in Frameworks */,
 				85AF824D24C09C9A23057BAA /* Pods_Trip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				CC6A5FE31D0068240094166A /* AppDelegate.swift */,
+				CC878BD11D06C76800C7F394 /* GoogleAPIKey.swift */,
 				CC6A5FFA1D0073780094166A /* FirstViewController.swift */,
 				CC6A5FFB1D0073780094166A /* SecondViewController.swift */,
 				CC6A5FFC1D0073780094166A /* ThirdViewController.swift */,
@@ -100,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				CC6A5FF71D0069600094166A /* GoogleMaps.bundle */,
-				4A10D4557697829EC63D5B43 /* Pods_testmaps.framework */,
 				3B32930D7F9C6720A9DA7377 /* Pods_Trip.framework */,
 			);
 			name = Frameworks;
@@ -230,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC878BD21D06C76800C7F394 /* GoogleAPIKey.swift in Sources */,
 				CC6A60001D0073780094166A /* SecondViewController.swift in Sources */,
 				CC6A5FE41D0068240094166A /* AppDelegate.swift in Sources */,
 				CC6A60011D0073780094166A /* ThirdViewController.swift in Sources */,

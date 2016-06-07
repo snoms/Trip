@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        GMSServices.provideAPIKey("AIzaSyAeGSCh48QkeVuEJca5FhuU34jPUQ6BWYA")
+        GMSServices.provideAPIKey(GoogleAPIkey)
         
         
         // http://stackoverflow.com/questions/33008072/register-notification-in-ios-9

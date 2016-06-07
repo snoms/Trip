@@ -7,3 +7,5 @@
 //
 
 import Foundation
+
+let GoogleAPIkey = "AIzaSyAeGSCh48QkeVuEJca5FhuU34jPUQ6BWYA"
